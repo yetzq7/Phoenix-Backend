@@ -1,10 +1,10 @@
 {
-  "//": "Core server config (added because the file was missing its opening object).",
-  "port": 3013, // change this to 3551 if you use reboot launcher
+  
+  "port": 3013, 
   "max_size": 45,
 
   "moderators": [
-    "", // put your discord id's here
+    "", 
     "",
     "",
     "",
@@ -68,7 +68,7 @@
 
   "//": "change this ip to your radmin ip or vps ip if your going to host for your project.",
   "gameServerIP": [
-    "127.0.0.1:7777:playlist_showdownalt_solo" // add
+    "127.0.0.1:7777:playlist_showdownalt_solo" 
   ],
 
   "//": "For 'BattlePassSeason' enter only the number of your season (from 2 to 20)",
@@ -144,7 +144,7 @@
   "bIgnisClientPort": 9999,
 
   "//": "Arsenic anticheat WebSocket server – client DLL connects here; set Arsenic socket URL in Arsenic/opts.h to match.",
-  "bEnableArsenicSocket": true, //
+  "bEnableArsenicSocket": true, 
   "bArsenicSocketPort": 2096,
 
   "//": "These are all the events you can add to the game, like the rift in the sky!",
